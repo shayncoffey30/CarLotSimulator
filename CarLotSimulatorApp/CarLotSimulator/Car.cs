@@ -6,6 +6,8 @@ namespace CarLotSimulator
     {
         public Car()
         {
+            Carlot.numberOfCars++;
+            //ClassName.StaticMember
         }
 
         public Car(int year, string make, string model, string engineNoise, string honkNoise, bool isDrivable)
